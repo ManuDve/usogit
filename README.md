@@ -1,3 +1,3 @@
-Este es mi primer repositorio que demuestra mi uso de Git. Al parecer, también se usar Linux.
+Este es mi primer repositorio. Evidentemente, puedo usar Git y Linux.
 
-ManuDV 2018
+— Manuel Alfaro
