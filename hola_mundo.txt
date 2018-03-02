@@ -5,4 +5,39 @@ Utilizando la terminal de Linux puedo manejar Git y mi entorno local.
 Copy-paste:
 
 
+manunix@manunix-vm:~$ cd top/01_usogit/
+manunix@manunix-vm:~/top/01_usogit$ git add hola_mundo.txt 
+manunix@manunix-vm:~/top/01_usogit$ code hola_mundo.txt 
+manunix@manunix-vm:~/top/01_usogit$ git diff hola_mundo.txt
+diff --git a/hola_mundo.txt b/hola_mundo.txt
+index e69de29..c26ac25 100644
+--- a/hola_mundo.txt
++++ b/hola_mundo.txt
+@@ -0,0 +1,8 @@
++Actualmente utilizo Ubuntu 16.04 para mis trabajos de desarrollo.
++
++Utilizando la terminal de Linux puedo manejar Git y mi entorno local.
++
++Copy-paste:
++
++
++
+manunix@manunix-vm:~/top/01_usogit$ git add hola_mundo.txt 
+manunix@manunix-vm:~/top/01_usogit$ git pull origin
+Already up-to-date.
+manunix@manunix-vm:~/top/01_usogit$ git commit -m "Se agrega texto al hola_mundo.txt"
+[master a35085f] Se agrega texto al hola_mundo.txt
+ 1 file changed, 8 insertions(+)
+manunix@manunix-vm:~/top/01_usogit$ git push origin master
+Username for 'https://github.com': manudve
+Password for 'https://manudve@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 425 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ManuDve/usogit
+   5807894..a35085f  master -> master
+
+
 
