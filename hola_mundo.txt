@@ -1,0 +1,8 @@
+Actualmente utilizo Ubuntu 16.04 para mis trabajos de desarrollo.
+
+Utilizando la terminal de Linux puedo manejar Git y mi entorno local.
+
+Copy-paste:
+
+
+
